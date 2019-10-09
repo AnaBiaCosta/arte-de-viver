@@ -1,0 +1,28 @@
+.news-letter{
+    background: #F27623;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 82px;
+    padding-right: 82px;
+}
+
+.news-letter img{
+    width: 100px;
+    height: 100px;
+}
+
+.title-newsLetter{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    border-right: white 5px solid;
+    padding-right: 2%;
+}
+
+.news-letter form {
+    display: flex;
+    flex-direction: column;
+
+}
