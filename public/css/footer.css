@@ -1,0 +1,47 @@
+footer {
+    background: #F29F05;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    padding-left: 82px;
+    padding-right: 82px;
+    justify-content: space-between;
+    height: 221px;
+}
+
+footer h3{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+footer li{
+    font-weight: 300;
+    line-height: 35px;
+}
+
+.list {
+    text-align: center
+}
+
+.contact img {
+    width: 25px;
+}
+
+.container-left {
+    margin-top: -6%
+}
+
+.social-media{
+    text-align: center;
+    margin-top: 5%
+}
+
+.social-media img{
+    width: 25px;
+    cursor: pointer;
+}
+
+.logo-footer{
+    width: 145px;
+    cursor: pointer;
+}
