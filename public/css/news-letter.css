@@ -33,3 +33,13 @@
     height: 25px;
     padding-left: 3%
 }
+
+.news-letter button{
+    background: #4EB4BF;
+    width: 200px;
+    height: 30px;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 8px
+}
