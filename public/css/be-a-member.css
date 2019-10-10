@@ -1,0 +1,16 @@
+.be-a-member{
+    background: #FFC24F;
+    height: 550px;
+    padding: 50px 82px;
+    color: white;
+}
+
+.be-a-member h2{
+    margin-top: 0;;
+    width: 30%;
+}
+
+.be-a-member p {
+    line-height: 30px;
+    font-weight: 300;;
+}
