@@ -11,3 +11,14 @@
 .primary:hover{
     background: #D74C11;
 }
+
+.tertiary{
+    color: white;
+    font-size: 16px;
+    text-align: initial;
+}
+
+.tertiary:hover{
+    color: #F27623;
+    cursor: pointer;
+}
