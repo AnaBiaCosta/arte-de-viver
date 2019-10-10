@@ -1,0 +1,28 @@
+.partners{
+    background-color: #4EB4BF;
+    height: 350px;
+    padding: 50px 82px;
+}
+
+.partners h2{
+    margin: 0;
+    width: 22%;
+    margin-bottom: 50px;
+}
+
+.partners p{
+    color: white;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.partners-img-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.logo-empresa{
+    width: 150px;
+}
