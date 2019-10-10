@@ -10,17 +10,6 @@
     color: white;
 }
 
-.section-title {
-    font-weight: 600;
-    font-size: 45px;
-    margin-bottom: 2%;
-    border-right: solid white 5px;
-    width: 33%;
-    height: 70px;
-    display: flex;
-    align-items: center;
-}
-
 .page-news .description {
     width: 29%;
     line-height: 25px;
