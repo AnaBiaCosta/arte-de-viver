@@ -1,0 +1,38 @@
+.page-news {
+    height: 550px;
+    background-image: url(../img/page-news-index/background1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-left: 82px;
+    padding-right: 82px;
+    padding-top: 2px;
+    color: white;
+}
+
+.page-news h1 {
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 2%;
+    border-right: solid white 5px;
+    width: 33%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.page-news .description{
+    width: 29%;
+    line-height: 25px;
+}
+
+.container-inside{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-news{
+    border: solid black 1px;
+    width: 60%;
+    height: 400px;
+}
