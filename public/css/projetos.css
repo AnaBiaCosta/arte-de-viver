@@ -1,13 +1,41 @@
-.projects{
+.projects {
     padding: 37px 82px;
-    background:linear-gradient(180deg, #004D40 0%, rgba(215, 76, 17, 0.5) 0%), url("../img/projects/background.png");
+    background: linear-gradient(180deg, #004D40 0%, rgba(215, 76, 17, 0.5) 0%), url("../img/projects/background.png");
     height: 500px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-.projects h2{
+.projects h2 {
     margin: 0;
     width: 22%;
- }
+}
+
+.projects .carousel {
+    height: 200px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.img-course img{
+    width: 90%;
+    padding: 4%;
+    border-radius: 24px;
+}
+
+.desc-course{
+    width: 40%;
+}
+
+.desc-course {
+    text-align: center;
+    color: white;
+    line-height: 35px;
+}
+
+.desc-course button{
+    margin-top: 5%;
+}
