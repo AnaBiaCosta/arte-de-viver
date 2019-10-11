@@ -25,3 +25,16 @@ button{
     align-items: center;
     color: white;
 }
+
+.btn-carousel{
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+    margin: 0;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+.carousel-icon{
+    width: 30px;
+}
