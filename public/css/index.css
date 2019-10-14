@@ -120,12 +120,6 @@ button{
     width: 22%;
 }
 
-
-.partners p{
-    line-height: 30px;
-    font-size: 16px;
-}
-
 .partners-img-container{
     display: flex;
     justify-content: space-between;
@@ -165,7 +159,6 @@ button{
 .pagination{
     display: flex;
     justify-content: space-between;
-    /* border: 2px solid yellow; */
     width: 400px;
 }
 
@@ -188,7 +181,6 @@ button{
 
 .history-article{
     text-align: center;
-    line-height: 25px;
     width: 900px;
     margin-bottom: 50px;
 }
@@ -223,7 +215,6 @@ button{
     font-size: 26px;
     font-style: italic;
     font-weight: normal;
-    font-weight: 400;
 }
 
 .be-a-member .container{
@@ -235,7 +226,6 @@ button{
     margin-top: 20%;
     padding: 0% 20%;
     font-size: 16px;
-    font-weight: 400;
 }
 
 .info-member .primary {
@@ -259,7 +249,6 @@ button{
 
 .who-are p {
     margin-top: 50px;
-    line-height: 30px;
     text-align: initial;
     font-size: 16px;
 }
@@ -284,7 +273,6 @@ button{
 
 .page-news .description {
     width: 29%;
-    line-height: 25px;
 }
 
 .container-inside {
