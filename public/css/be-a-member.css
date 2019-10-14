@@ -1,12 +1,10 @@
 .be-a-member{
     background: #FFC24F;
     height: 550px;
-    padding: 50px 82px;
     color: white;
 }
 
-.be-a-member h2{
-    margin-top: 0;;
+.be-a-member .section-title {
     width: 30%;
 }
 

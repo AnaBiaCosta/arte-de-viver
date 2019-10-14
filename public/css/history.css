@@ -1,14 +1,11 @@
 .history{
     background: url("../img/historia/historia-background.png");
     height: 500px;
-    padding: 50px 82px;
     color: white;
 }
 
-.history h2{
-    margin: 0;
-    width: 17%;
-    margin-bottom: 50px;
+.history .section-title {
+    width: 20%;
 }
 
 .carroussel-container{

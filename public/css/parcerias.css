@@ -1,14 +1,12 @@
 .partners{
     background-color: #4EB4BF;
     height: 350px;
-    padding: 50px 82px;
 }
 
-.partners h2{
-    margin: 0;
+.partners .section-title {
     width: 22%;
-    margin-bottom: 50px;
 }
+
 
 .partners p{
     color: white;
