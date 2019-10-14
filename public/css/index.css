@@ -1,7 +1,12 @@
 /* GERAL */
+body{
+    color: white;
+}
+
 section{
     padding: 82px 82px;
 }
+
 .section-title {
     font-weight: 600;
     font-size: 45px;
@@ -27,7 +32,6 @@ section{
 }
 
 .principal-title {
-    color: white;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 1);
     font-size: 82px;
     text-align: center;
@@ -40,7 +44,6 @@ section{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    color: white;
     background-color: #F27623;
 }
 
@@ -71,7 +74,6 @@ section{
 /* MÉTRICAS */
 .metricas{
     background: url("../img/metricas/metricas.jpg");
-    color: white;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -116,7 +118,6 @@ section{
 
 
 .partners p{
-    color: white;
     line-height: 30px;
     font-size: 16px;
 }
@@ -137,7 +138,6 @@ section{
 /* HISTÓRIA */
 .history{
     background: url("../img/historia/historia-background.png");
-    color: white;
 }
 
 .history .section-title {
@@ -195,7 +195,6 @@ section{
 /* SEJA MEMBRO */
 .be-a-member{
     background: #FFC24F;
-    color: white;
 }
 
 .be-a-member .section-title {
@@ -252,7 +251,6 @@ section{
 /* QUEM SOMOS */
 .who-are {
     background-color: #4EB4BF;
-    color: white;
     text-align: center;
 }
 
@@ -279,7 +277,6 @@ section{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    color: white;
 }
 
 .page-news .section-title {
@@ -345,7 +342,6 @@ section{
 }
 
 .title-newsLetter{
-    color: white;
     font-size: 25px;
     font-weight: 600;
     border-right: white 5px solid;
@@ -371,7 +367,6 @@ section{
     background: #4EB4BF;
     width: 200px;
     height: 30px;
-    color: white;
     font-weight: 500;
     font-size: 15px;
     border-radius: 8px;
