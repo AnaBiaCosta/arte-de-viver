@@ -7,6 +7,10 @@ section{
     padding: 82px 82px;
 }
 
+button{
+    color: white;
+}
+
 .section-title {
     font-weight: 600;
     font-size: 45px;
@@ -199,11 +203,6 @@ section{
 
 .be-a-member .section-title {
     width: 30%;
-}
-
-.be-a-member p {
-    line-height: 30px;
-    font-weight: 300;;
 }
 
 .carousel {
