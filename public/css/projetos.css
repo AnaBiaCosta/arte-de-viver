@@ -1,0 +1,62 @@
+.projects {
+    padding: 37px 82px;
+    background: linear-gradient(180deg, #004D40 0%, rgba(215, 76, 17, 0.5) 0%), url("../img/projects/background.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.projects h2 {
+    margin: 0;
+    width: 22%;
+}
+
+.container-projects {
+    padding: 57px 0px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container-projects .navegation {
+    display: flex;
+}
+
+.img-projects img {
+    width: 100%;
+}
+
+.img-projects {
+    width: 70%;
+}
+
+.navegation .title-course {
+    text-align: center;
+    background-color: #4EB4BF;
+    align-items: center;
+    position: relative;
+    margin-top: -35px;
+    line-height: 35px;
+}
+
+.navegation .title-course p {
+    font-style: normal;
+    font-weight: 600;
+    color: white;
+    height: 35px;
+}
+
+.container-projects .desc-course {
+    color: white;
+    text-align: center;
+    width: 70%;
+    padding: 0% 2%;
+    margin-left: 6%;
+    margin-top: 5%;
+}
+
+.container-projects .desc-course .primary {
+    margin-top: 5%;
+}
