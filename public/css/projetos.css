@@ -13,7 +13,6 @@
 }
 
 .container-projects {
-    border: solid black 1px;
     padding: 57px 0px;
     width: 50%;
     display: flex;
@@ -23,7 +22,6 @@
 
 .container-projects .navegation {
     display: flex;
-    border: solid red 1px;
 }
 
 .img-projects img {
@@ -53,4 +51,12 @@
 .container-projects .desc-course {
     color: white;
     text-align: center;
+    width: 70%;
+    padding: 0% 2%;
+    margin-left: 6%;
+    margin-top: 5%;
+}
+
+.container-projects .desc-course .primary {
+    margin-top: 5%;
 }
