@@ -76,6 +76,10 @@ footer li {
     cursor: pointer;
 }
 
+.social-media img:nth-last-child(2){
+    margin-right: 5%;
+}
+
 .logo-footer {
     width: 145px;
     cursor: pointer;
