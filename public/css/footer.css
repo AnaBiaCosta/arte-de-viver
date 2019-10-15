@@ -22,6 +22,11 @@ footer li {
     line-height: 35px;
 }
 
+footer li:hover{
+    color: #480000;
+    cursor: pointer;
+}
+
 .list {
     text-align: center
 }
