@@ -10,7 +10,6 @@
 }
 
 .container-projects {
-    border: 2px solid red;
     width: 50%;
     display: flex;
     justify-content: space-between;
@@ -19,7 +18,7 @@
 .btn-container{
     display: flex;
     align-items: center;
-    border: 2px solid blue
+    height: 240px;
 }
 
 .course-container{
@@ -28,7 +27,6 @@
     flex-direction: column;
     align-items: center;
     justify-items: center;
-    border: 2px solid green
 }
 
 .course-container img{
