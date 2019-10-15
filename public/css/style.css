@@ -19,7 +19,6 @@ button{
     font-weight: 600;
 }
 
-
 .btn-carousel{
     background-color: transparent;
     border: none;
@@ -31,4 +30,8 @@ button{
 
 .carousel-icon{
     width: 30px;
+}
+
+.active{
+    font-weight: 600;
 }
