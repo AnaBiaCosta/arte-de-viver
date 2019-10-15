@@ -1,6 +1,11 @@
 body{
     font-family: 'Roboto', sans-serif;
     font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+
+p{
+    line-height: 30px;
 }
 
 button{
@@ -14,17 +19,6 @@ button{
     font-weight: 600;
 }
 
-.section-title {
-    font-weight: 600;
-    font-size: 45px;
-    margin-bottom: 2%;
-    border-right: solid white 5px;
-    width: 33%;
-    height: 70px;
-    display: flex;
-    align-items: center;
-    color: white;
-}
 
 .btn-carousel{
     background-color: transparent;
