@@ -22,6 +22,7 @@ button{
     margin: 0px 0px 60px;
 }
 
+
 /* PRINCIPAL */
 .principal {
     background: url("../img/principal.jpg");
@@ -228,9 +229,21 @@ h2.subtitle{
     width: 0px;
 }
 
-
-
-
+.img-course {
+    background-image: url(../img/projects/curso-yes-nas-escolas.png);
+    background-size: contain;
+    height: 200px;
+    width: 380px;
+    display: flex;
+ }
+ .img-course h3 {
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    background-color: #4EB4BF;
+    align-self: flex-end;
+    width: 100%;
+ }
 
 
 
