@@ -232,6 +232,7 @@ h2.subtitle{
 
 .img-course h3 {
     padding: 10px;
+    margin: 0;
     text-align: center;
     background-color: #4EB4BF;
     align-self: flex-end;
