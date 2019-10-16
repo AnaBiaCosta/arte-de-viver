@@ -248,7 +248,63 @@ h2.subtitle{
     width: 30%;
 }
 
-.carousel {
+.be-a-member .carrousel-container{
+    /* border: 2px solid red; */
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.carrousel-img-container{
+    width: 48%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.carrousel-img {
+    width: 400px;
+    border-radius: 10px;
+}
+
+.be-a-member h3{
+    text-align: center;
+    font-weight: 400;
+    margin: 20px 0px;
+}
+
+.carrousel-text-container{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.carrousel-text-container p{
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.carrousel-img-container .btn-container{
+    display: flex;
+    width: 30px;
+}
+
+.carrousel-img-container .carousel-icon-orientation{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+
+
+
+
+
+/* .carousel {
     height: 350px;
     width: 50%;
     display: flex;
@@ -281,7 +337,7 @@ h2.subtitle{
 
 .info-member .primary {
     margin-top: 10%;
-}
+} */
 
 /* QUEM SOMOS */
 .who-are {
