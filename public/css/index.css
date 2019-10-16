@@ -154,6 +154,7 @@ button{
 .pagination-item{
     border-bottom: 1px solid white;
     width: 40px;
+    border-radius: 15px;
 }
 
 .active{
