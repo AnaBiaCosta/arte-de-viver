@@ -22,8 +22,6 @@ button{
     margin: 0px 0px 60px;
 }
 
-
-
 /* PRINCIPAL */
 .principal {
     background: url("../img/principal.jpg");
@@ -40,8 +38,6 @@ button{
     font-size: 82px;
     text-align: center;
 }
-
-
 
 /* MISSÃO */
 .missao {
@@ -71,9 +67,6 @@ button{
     width: 400px;
     line-height: 25px;
 }
-
-
-
 
 /* MÉTRICAS */
 .metricas{
@@ -109,8 +102,6 @@ button{
     width: 900px;
 }
 
-
-
 /* PARCERIAS */
 .partners{
     background-color: #4EB4BF;
@@ -130,8 +121,6 @@ button{
 .logo-empresa{
     width: 150px;
 }
-
-
 
 /* HISTÓRIA */
 .history{
@@ -185,9 +174,6 @@ button{
     margin-bottom: 50px;
 }
 
-
-
-
 /* SEJA MEMBRO */
 .be-a-member{
     background: #FFC24F;
@@ -232,11 +218,6 @@ button{
     margin-top: 10%;
 }
 
-
-
-
-
-
 /* QUEM SOMOS */
 .who-are {
     background-color: #4EB4BF;
@@ -256,8 +237,6 @@ button{
 .who-are .primary {
     margin-top: 5%;
 }
-
-
 
 /* FIQUE POR DENTRO */
 .page-news {
@@ -311,8 +290,9 @@ button{
     height: 155px;
 }
 
-
-
+.specific-news a{
+    text-decoration: none;
+}
 
 /* NEWS LETTER */
 .news-letter{
