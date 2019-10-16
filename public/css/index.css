@@ -298,15 +298,14 @@ h2.subtitle{
 /* NEWS LETTER */
 .news-letter{
     background: #F27623;
-    height: 300px;
     display: flex;
+    padding: 60px 82px;
     justify-content: space-around;
     align-items: center;
 }
 
 .news-letter img{
     width: 150px;
-    height: 150px;
 }
 
 .title-newsLetter{
@@ -324,7 +323,7 @@ h2.subtitle{
 
 .news-letter form input{
     border-radius: 8px;
-    margin-bottom: 8%;
+    margin-bottom: 10%;
     width: 300px;
     height: 25px;
     padding-left: 3%;
@@ -334,7 +333,7 @@ h2.subtitle{
 .news-letter button{
     background: #4EB4BF;
     width: 200px;
-    height: 30px;
+    height: 40px;
     font-weight: 500;
     font-size: 15px;
     border-radius: 8px;
