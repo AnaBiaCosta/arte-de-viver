@@ -41,6 +41,23 @@
 .course-container div button{
     text-align: center;
 }
+
+.img-course {
+    background-image: url(../img/projects/curso-yes-nas-escolas.png);
+    background-size: contain;
+    height: 200px;
+    width: 380px;
+    display: flex;
+}
+
+.img-course h3 {
+    padding: 10px;
+    text-align: center;
+    background-color: #4EB4BF;
+    align-self: flex-end;
+    width: 100%;
+}
+
 /* 
 .container-projects .navegation {
     display: flex;
