@@ -177,7 +177,9 @@ h2.subtitle{
     margin-bottom: 50px;
 }
 
-/* Projetos */
+
+
+/* PROJETOS */
 .projects {
     background: linear-gradient(180deg, #004D40 0%, rgba(215, 76, 17, 0.5) 0%), url("../img/projects/background.png");
     background-repeat: no-repeat;
@@ -222,22 +224,16 @@ h2.subtitle{
     text-align: center;
 }
 
-.img-course {
-    background-image: url(../img/projects/curso-yes-nas-escolas.png);
-    background-size: contain;
-    height: 200px;
-    width: 380px;
-    display: flex;
+.btn-container{
+    width: 0px;
 }
 
-.img-course h3 {
-    padding: 10px;
-    margin: 0;
-    text-align: center;
-    background-color: #4EB4BF;
-    align-self: flex-end;
-    width: 100%;
-}
+
+
+
+
+
+
 
 /* SEJA MEMBRO */
 .be-a-member{
@@ -263,7 +259,7 @@ h2.subtitle{
 }
 
 .carrousel-img {
-    width: 400px;
+    width: 1000px;
     border-radius: 10px;
 }
 
@@ -296,48 +292,6 @@ h2.subtitle{
     padding: 0px;
 }
 
-
-
-
-
-
-
-
-
-/* .carousel {
-    height: 350px;
-    width: 50%;
-    display: flex;
-    align-items: center;
-}
-
-.img-member img{
-    width: 90%;
-    padding: 4%;
-    border-radius: 24px;
-}
-
-.img-member p{
-    text-align: center;
-    font-size: 26px;
-    font-style: italic;
-    font-weight: normal;
-}
-
-.be-a-member .container{
-    display: flex;
-    text-align: center;
-}
-
-.info-member p {
-    margin-top: 20%;
-    padding: 0% 20%;
-    font-size: 16px;
-}
-
-.info-member .primary {
-    margin-top: 10%;
-} */
 
 /* QUEM SOMOS */
 .who-are {
@@ -458,4 +412,3 @@ h2.subtitle{
     font-size: 15px;
     border-radius: 8px;
 }
-
