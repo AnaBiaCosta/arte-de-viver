@@ -1,3 +1,47 @@
-.specific-course{
-    
+.section-title {
+    font-weight: 600;
+    font-size: 45px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    color: white;
+    border-right: 5px solid white;
+    margin: 0px 0px 60px;
+}
+
+.section-title{
+    width: 20%;
+    color: #d74c11;
+    border-right: #d74c11 solid 5px;
+}
+
+.impact{
+    padding: 30px 82px;
+    padding-bottom: 70px ;
+}
+
+.impact p{
+    color: #d74c11;
+}
+
+.impact-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.impact-container div{
+    width: 300px;
+    text-align: center;
+}
+
+.impact img{
+    margin-top: 50px;
+    width: 300px;
+    margin-bottom: 25px;
+}
+
+.impact-container p{
+    line-height: 30px;
+    text-align: left;;
 }
