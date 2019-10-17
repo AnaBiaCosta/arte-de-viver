@@ -427,3 +427,7 @@ h2.subtitle {
     font-size: 15px;
     border-radius: 8px;
 }
+
+.news-letter button:hover{
+    background-color: rgb(65, 147, 156);
+}
