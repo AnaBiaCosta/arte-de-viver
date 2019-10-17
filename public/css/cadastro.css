@@ -1,0 +1,47 @@
+.title-container p{
+    width: 400px;
+}
+
+.principal-title-container{
+    width: 500px;
+}
+
+.general-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 82px;
+}
+
+.cadastro-container{
+    width: 47%;
+    margin: 50px 0px 100px 0px;
+
+}
+
+.cadastro-container h2{
+    margin: 0px;
+    padding: 35px;
+    color: white;
+    text-align: center;
+    font-size: 45px;
+}
+
+.title-section-juridic-person{
+    background-color: #FFC24F;
+}
+
+.title-section-fisic-person{
+    background-color: #D74C11;
+}
+
+.cadastro-container p{
+    margin: 40px 0px;
+}
+
+h2 div{
+    margin-top: 15px;
+}
+
+.cadastro-container button{
+    width: 100%;
+}
