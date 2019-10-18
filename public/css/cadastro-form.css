@@ -1,5 +1,5 @@
 main{
-    padding: 0px 82px;
+    margin: 0px 82px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,6 +20,7 @@ form{
     display: flex;
     flex-direction: column;
     align-items: center;
+    align-self: center;
 }
 
 .question{
@@ -67,4 +68,27 @@ form .primary{
 
 .space-button{
     margin-top: 60px;
+}
+
+.cadastro-container{
+    display: flex;
+    width: 85%;
+    box-sizing: border-box;
+}
+
+.tertiary{
+    color: black;
+
+    width: 210px;
+    display: flex;
+    align-items:flex-end;
+    padding-bottom: 60px ;
+}
+
+.tertiary a{
+    color: #FFC24F;
+}
+
+.tertiary a:hover{
+    color: #D74C11;
 }
