@@ -1,0 +1,118 @@
+main{
+    padding: 0px 82px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-title{
+    color: #4EB4BF;
+    margin: 40px 82px;
+    padding-bottom: 40px ;
+    text-align: center;
+    font-size: 65px;
+    line-height: 70px;
+    border-bottom: 1px solid #FFC24F;
+}
+
+form{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.question{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-container{
+    width: 320px;
+    margin-bottom: 60px;
+}
+
+.input-text{
+    background-color: #4EB4BF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 300px;
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.input-container .input-radio{
+    text-align: center;
+}
+
+.space{
+    margin-bottom: 15px;
+}
+
+.text-area{
+    height: 300px;
+}
+
+::placeholder{
+    color:white;
+    font-family: 'Raleway', sans-serif;
+}
+
+form .primary{
+    margin: 60px 0px;
+    width: 320px;
+}
+
+
+
+
+
+
+/* .text-information{
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form{
+    border: 2px solid red;
+    width: 420px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+form div{
+    align-self: center;
+    text-align: center;
+    margin-bottom: 40px;
+    width: 320px;
+    margin-bottom: 70px;
+    border: 2px solid green;
+}
+
+form div p{
+    text-align: left;
+    margin-top: 20px;
+}
+
+
+.input{
+    background-color: #4EB4BF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 300px;
+    padding: 10px;
+}
+
+.primary{
+    width: 320px
+}
+
+span{
+    text-align: justify;
+} */
