@@ -61,58 +61,10 @@ form{
 }
 
 form .primary{
-    margin: 60px 0px;
     width: 320px;
+    margin-bottom: 60px;
 }
 
-
-
-
-
-
-/* .text-information{
-    font-size: 20px;
-    margin-bottom: 20px;
-    text-align: center;
+.space-button{
+    margin-top: 60px;
 }
-
-form{
-    border: 2px solid red;
-    width: 420px;
-    margin-bottom: 50px;
-    display: flex;
-    flex-direction: column;
-}
-
-
-form div{
-    align-self: center;
-    text-align: center;
-    margin-bottom: 40px;
-    width: 320px;
-    margin-bottom: 70px;
-    border: 2px solid green;
-}
-
-form div p{
-    text-align: left;
-    margin-top: 20px;
-}
-
-
-.input{
-    background-color: #4EB4BF;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    width: 300px;
-    padding: 10px;
-}
-
-.primary{
-    width: 320px
-}
-
-span{
-    text-align: justify;
-} */
