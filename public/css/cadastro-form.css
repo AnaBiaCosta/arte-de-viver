@@ -76,19 +76,19 @@ form .primary{
     box-sizing: border-box;
 }
 
-.tertiary{
+.container-button{
     color: black;
-
     width: 210px;
     display: flex;
     align-items:flex-end;
     padding-bottom: 60px ;
+    cursor: auto;
 }
 
-.tertiary a{
+.container-button a{
     color: #FFC24F;
 }
 
-.tertiary a:hover{
+.container-button a:hover{
     color: #D74C11;
 }
