@@ -165,7 +165,7 @@ h2.subtitle {
     border-radius: 15px;
 }
 
-.active {
+.active-pagination {
     border-bottom: 3px solid white;
 }
 

@@ -1,3 +1,16 @@
+h1 span , h2 span, h3 span {
+    display: block;
+    line-height: 57px;
+}
+
+h1 a, h2 a, h3 a{
+    text-decoration: none;
+}
+
+.news-plus:hover{
+color: #D74C11;
+}
+
 .manchete{
     background: url("../img/news-general/hands-information-magazine-6053.jpg");
     background-repeat: no-repeat;
@@ -8,10 +21,11 @@
     align-items: center;
 }
 
-.manchete h1{
+.manchete h1 a{
     color: white;
     text-shadow: 2px 2px 2px black;
     font-size: 65px;
+    text-decoration: none;
 }
 
 .title-container h2{
@@ -33,6 +47,7 @@
     width: 50%;
     box-sizing: border-box;
     padding: 0px 82px;
+
 }
 
 .news-text-container p{
