@@ -135,6 +135,10 @@ h2.subtitle {
     background: url("../img/historia/historia-background.png");
 }
 
+.carroussel-layout{
+    display: flex;
+}
+
 .history .section-title {
     width: 20%;
 }
@@ -143,6 +147,7 @@ h2.subtitle {
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    width: 100%;
 }
 
 .slide {
@@ -156,8 +161,7 @@ h2.subtitle {
     text-align: center;
     position: relative;
     border: solid blue 1px;
-    width: 1095px;
-    color: #4EB4BF;;
+    width: 1011px;
 }
 
 .pagination {
@@ -186,12 +190,8 @@ h2.subtitle {
 
 .history-article {
     text-align: center;
-    width: 900px;
     margin-bottom: 50px;
-}
-
-.history-article dd {
-    line-height: 200%;
+    line-height: 170%;
 }
 
 /* PROJETOS */
