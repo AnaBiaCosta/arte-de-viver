@@ -12,11 +12,31 @@ header{
     z-index: 1;
 }
 
-.navegation-container{
+.search-container{
     display: flex;
     align-items: center;;
-    height: 100%;
+    padding: 0.7% 0.7%;
     box-sizing: border-box;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-right: 20px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.search-container input{
+    border: none;
+    background-color: #F29f05;
+    width: 250px;
+    color: white;
+    display: none;
+}
+.search-container input:focus{
+    outline: 0;
+}
+
+.search-container input:hover{
+    border: none
 }
 
 nav ul{
@@ -39,10 +59,17 @@ nav{
     height: 70px;
 }
 
+.navigation-container{
+    display: flex;
+    width: 850px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
 .nav-icon{
     width: 15px;
     height: 15px;
-    padding-right: 20px ;
+    /* padding-right: 20px ; */
 }
 
 .nav-brand{
