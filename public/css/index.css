@@ -137,6 +137,7 @@ h2.subtitle {
 
 .carroussel-layout{
     display: flex;
+    align-items: center;
 }
 
 .history .section-title {
@@ -151,7 +152,6 @@ h2.subtitle {
 }
 
 .slide {
-    border: solid black 2px;
     width: 10000px;
     overflow: auto;
 }
@@ -160,14 +160,14 @@ h2.subtitle {
     float: left;
     text-align: center;
     position: relative;
-    border: solid blue 1px;
-    width: 1011px;
+    width: 1020px;
 }
 
 .pagination {
     display: flex;
     justify-content: space-between;
     width: 400px;
+    margin: auto;
 }
 
 .pagination-item {
@@ -192,6 +192,7 @@ h2.subtitle {
     text-align: center;
     margin-bottom: 50px;
     line-height: 170%;
+    padding: 0% 2px;
 }
 
 /* PROJETOS */
