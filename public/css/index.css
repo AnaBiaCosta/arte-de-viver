@@ -140,17 +140,24 @@ h2.subtitle {
 }
 
 .carroussel-container {
-    display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+}
+
+.slide {
+    border: solid black 2px;
+    width: 10000px;
+    overflow: auto;
 }
 
 .information-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 1000px;
+    float: left;
+    text-align: center;
+    position: relative;
+    border: solid blue 1px;
+    width: 1095px;
+    color: #4EB4BF;;
 }
 
 .pagination {
@@ -181,6 +188,10 @@ h2.subtitle {
     text-align: center;
     width: 900px;
     margin-bottom: 50px;
+}
+
+.history-article dd {
+    line-height: 200%;
 }
 
 /* PROJETOS */
