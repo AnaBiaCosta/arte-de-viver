@@ -208,12 +208,36 @@ h2.subtitle {
     height: 240px;
 }
 
-.course-container {
+.course-container-hidden {
+    width: 450px;
+    overflow: hidden;
+}
+
+.course-container{
+    width: 2250px;
+    float: left;
+    left: 0px;
+    position: relative;
+    transition: left 0.5s ease-in-out;
+}
+
+.course{
     width: 450px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-items: center;
+    float: left;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: ' ';
+    display: table;
+}
+
+.clearfix::after {
+    clear: both
 }
 
 .course-container img {
@@ -349,7 +373,9 @@ h2.subtitle {
 }
 
 .container-news {
-    width: 50%;
+    margin-top: -8%;
+    width: 60%;
+    height: 500px;
     text-align: center;
 }
 
@@ -365,10 +391,12 @@ h2.subtitle {
 .specific-news {
     display: flex;
     flex-direction: column;
-    width: 232px;
-    float: left;
-    margin-bottom: 7%;
-    margin-left: 7.5%;
+}
+
+.container-news .row {
+    display: flex;
+    padding-top: 5%;
+    justify-content: space-around;
 }
 
 .specific-news img {
@@ -378,7 +406,6 @@ h2.subtitle {
 .specific-news a {
     text-decoration: none;
 }
-
 
 /* NEWS LETTER */
 
