@@ -11,7 +11,7 @@ let contador = 1;
 
 function toLeft() {
     if (contador > 1) {
-        position += 450
+        position += 400
         courseContainer.style.left = `${position}px`
         contador--
     }
@@ -19,7 +19,7 @@ function toLeft() {
 
 function toRight() {
     if (contador < courseCard) {
-        position -= 450
+        position -= 400
         courseContainer.style.left = `${position}px`
         contador++
     }
