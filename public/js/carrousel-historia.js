@@ -8,7 +8,7 @@ let slide = document.querySelector('.slide')
 
 let totalConteudo = document.querySelectorAll('.information-container').length
 
-let contador = 1;
+let contadorHistoria = 1;
 
 let margin;
 
@@ -18,19 +18,18 @@ console.log(totalPaginacao)
 
 
 function proximo() {
-    if (contador < totalConteudo) {
-        margin = contador * -1000
+    if (contadorHistoria < totalConteudo) {
+        margin = contadorHistoria * -1000
         slide.style.marginLeft = `${margin}px`
-        contador++
+        contadorHistoria++
     }
 }
 
 function voltar() {
-    console.log(contador)
-    if (contador > 1) {
+    if (contadorHistoria > 1) {
         margin = margin + 1000
         slide.style.marginLeft = `${margin}px`
-        contador--
+        contadorHistoria--
     }
 }
 
