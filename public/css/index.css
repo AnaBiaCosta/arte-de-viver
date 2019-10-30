@@ -349,9 +349,7 @@ h2.subtitle {
 }
 
 .container-news {
-    margin-top: -8%;
-    width: 60%;
-    height: 500px;
+    width: 50%;
     text-align: center;
 }
 
@@ -367,12 +365,10 @@ h2.subtitle {
 .specific-news {
     display: flex;
     flex-direction: column;
-}
-
-.container-news .row {
-    display: flex;
-    padding-top: 5%;
-    justify-content: space-around;
+    width: 232px;
+    float: left;
+    margin-bottom: 7%;
+    margin-left: 7.5%;
 }
 
 .specific-news img {
@@ -382,6 +378,7 @@ h2.subtitle {
 .specific-news a {
     text-decoration: none;
 }
+
 
 /* NEWS LETTER */
 
