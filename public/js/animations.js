@@ -5,15 +5,15 @@ const navContainer = document.querySelector('.navigation-container')
 const input = document.querySelector('.input-search')
 
 
-function expand(){ 
+function expand() {
     navContainer.style.width = "950px"
-    container.style.width= "350px"
+    container.style.width = "350px"
     input.style.display = "block"
 }
 
-function retract(){ 
-    // navContainer.style.width = "850px"
-    container.style.width= "30px"
-    input.style.display = "none"
+function retract() {
+    if (input.value == '') {
+        container.style.width = "30px"
+        input.style.display = "none"
+    }
 }
-
