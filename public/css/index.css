@@ -145,22 +145,27 @@ h2.subtitle {
 }
 
 .carroussel-container {
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    border: solid black 1px;
+    width: 1000px;
     overflow: hidden;
-    width: 100%;
 }
 
 .slide {
+    width: 1000px;
+    border: solid 1px red;
+    position: relative;
     width: 10000px;
+    transition: margin 0.5s ease-in-out;
     overflow: auto;
 }
 
 .information-container {
     float: left;
-    text-align: center;
-    position: relative;
-    width: 1020px;
+    border: solid rgb(0, 119, 255) 1px;
+    height: 300px;
+    width: 1000px;
+    box-sizing: border-box;
 }
 
 .pagination {
