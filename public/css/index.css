@@ -223,12 +223,36 @@ h2.subtitle {
     margin-left: 3%;
 }
 
-.course-container {
+.course-container-hidden {
+    width: 450px;
+    overflow: hidden;
+}
+
+.course-container{
+    width: 2250px;
+    float: left;
+    left: 0px;
+    position: relative;
+    transition: left 0.5s ease-in-out;
+}
+
+.course{
     width: 450px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-items: center;
+    float: left;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: ' ';
+    display: table;
+}
+
+.clearfix::after {
+    clear: both
 }
 
 .course-container img {
