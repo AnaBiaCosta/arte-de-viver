@@ -1,25 +1,29 @@
-body{
+body {
     font-family: 'Roboto', sans-serif;
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
 }
 
-p{
+p {
     line-height: 30px;
 }
 
-button{
+button {
     border: none;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     cursor: pointer;
 }
 
-.subtitle{
+button:focus {
+    outline: 0;
+}
+
+.subtitle {
     font-size: 38px;
     font-weight: 600;
 }
 
-.btn-carousel{
+.btn-carousel {
     background-color: transparent;
     border: none;
     text-decoration: none;
@@ -28,10 +32,10 @@ button{
     box-shadow: none;
 }
 
-.carousel-icon{
+.carousel-icon {
     width: 30px;
 }
 
-.active{
+.active {
     font-weight: 600;
 }
