@@ -12,6 +12,11 @@ let contador = 1;
 
 let margin;
 
+let totalPaginacao = document.querySelectorAll('.pagination-item').length
+
+console.log(totalPaginacao)
+
+
 function proximo() {
     if (contador < totalConteudo) {
         margin = contador * -1000
@@ -27,5 +32,5 @@ function voltar() {
         slide.style.marginLeft = `${margin}px`
         contador--
     }
-
 }
+
