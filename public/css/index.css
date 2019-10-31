@@ -298,7 +298,6 @@ h2.subtitle {
 }
 
 .be-a-member .carrousel-container {
-    /* border: 2px solid red; */
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
@@ -388,9 +387,8 @@ h2.subtitle {
 }
 
 .container-news {
-    margin-top: -8%;
-    width: 60%;
-    height: 500px;
+    width: 55%;
+    height: 510px;
     text-align: center;
 }
 
@@ -406,6 +404,10 @@ h2.subtitle {
 .specific-news {
     display: flex;
     flex-direction: column;
+    width: 250px;
+    float: right;
+    margin-left: 8%;
+    margin-bottom: 5%;
 }
 
 .container-news .row {
