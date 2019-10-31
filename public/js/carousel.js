@@ -24,3 +24,4 @@ function toRight() {
         contador++
     }
 }
+

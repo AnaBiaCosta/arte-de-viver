@@ -297,11 +297,30 @@ h2.subtitle {
     width: 30%;
 }
 
-.be-a-member .carrousel-container {
+.be-a-member .beamember-container {
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
 }
+
+.carousel-container-hidden{
+    overflow: hidden;
+}
+
+.carousel-container{
+    width: 4000px;
+    transition: left 0.5s ease-in-out;
+    left: 0px;
+    position: relative;
+}
+
+.member{
+    display: flex;
+    width: 900px;
+    float: left;
+}
+
+
 
 .carrousel-img-container {
     width: 48%;
