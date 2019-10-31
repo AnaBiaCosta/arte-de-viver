@@ -72,6 +72,8 @@ footer li:hover{
 }
 
 .social-media {
+    display: flex;
+    justify-content: space-around;
     text-align: center;
     margin-top: 5%
 }
@@ -95,4 +97,5 @@ footer li:hover{
     float: right;
     align-items: flex-end;
     margin-top: 13%
+    
 }
