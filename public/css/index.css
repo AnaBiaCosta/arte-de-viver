@@ -442,13 +442,15 @@ h2.subtitle {
     font-size: 25px;
     font-weight: 600;
     border-right: white 5px solid;
-    width: 45%
+    width: 45%;
+    padding-right: 10px;
 }
 
 .news-letter form {
     display: flex;
     flex-direction: column;
     text-align: -webkit-center;
+
 }
 
 .news-letter form input {
