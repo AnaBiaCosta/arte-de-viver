@@ -80,6 +80,7 @@ nav{
 
 .nav:hover{
     background-color: #D74C11;
+    transition: 0.5s;
 }
 
 
