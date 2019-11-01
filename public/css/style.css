@@ -49,6 +49,7 @@ button:focus, input:focus  {
     display: flex;
     justify-content: center;
     align-items: center;
+    display: none;
 }
 
 .pop-up div{
@@ -71,7 +72,7 @@ button:focus, input:focus  {
 .pop-up p:nth-child(2){
     color: #C74C11;
     font-size: 20px;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
 }
 
 .pop-up button {
@@ -86,4 +87,8 @@ button:focus, input:focus  {
 
 .pop-up button:hover{
     background-color: rgb(65, 147, 156);
+}
+
+.overflow-hidden{
+    overflow: hidden;
 }
