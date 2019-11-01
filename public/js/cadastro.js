@@ -2,8 +2,6 @@ let body = document.querySelector('.body')
 
 let popUp = document.querySelector(".pop-up")
 
-
-
 let btnCadastro = document.querySelector(".action-cadastro")
 btnCadastro.addEventListener('click', concluirCadastro)
 
