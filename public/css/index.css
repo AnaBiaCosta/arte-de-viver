@@ -28,7 +28,7 @@ button {
 .principal {
     background: url("../img/principal.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     height: 554.9px;
     display: flex;
     justify-content: center;
